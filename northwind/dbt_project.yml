@@ -34,10 +34,14 @@ models:
     # Config indicated by + and applies to all files under models/example/
     raw:
       +materialized: view
+      +docs:
+        node_color: "#cd7f32" # cor bronze para a camada raw
     staging:
       +materialized: view
-    intermediate:
-      +materialized: view
-    marts:
+      +docs:
+        node_color: "#c0c0c0" # cor prata para a camada staging
+    reports:
       +schema: "gold"
       +materialized: table
+      +docs:
+        node_color: "#e6b530" # cor ouro para a camada reports
