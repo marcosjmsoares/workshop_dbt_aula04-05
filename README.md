@@ -139,4 +139,4 @@ Este projeto tem como objetivo demonstrar uma implementação prática de **enge
 
 ## Autor
 
-Marcos Soares
+Marcos José de Moura Soares
